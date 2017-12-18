@@ -1,0 +1,103 @@
+#This project have some problems  right now ... can u spot the problem and correct it
+import random
+tester = False
+play= input("write play if you want to continue or quit to quit the program :")
+def game():
+    tester = True
+    while tester == True:
+        r = random.random()
+        r = int(r * 10)
+        if r == 1:
+            print("You got one .")
+            tester = False
+            pass
+        elif r == 2:
+            print("You got two .")
+            tester = False
+
+            pass
+        elif r == 3:
+            print("You got three .")
+            tester = False
+            pass
+        elif r == 4:
+            print("You got four .")
+            tester = False
+            pass
+        elif r == 5:
+            print("You got five .")
+            tester = False
+            pass
+        elif r == 6:
+            print("You got six .")
+            tester = False
+            pass
+        else:
+            continue
+            pass
+        pass
+
+if play=="play" :
+    game()
+ans=input("want to play again, write yes to continue ,or quit it :")
+
+def repeat(ans):
+    while ans=="yes":
+
+        if ans=="yes":
+            game()
+            pass
+        ans=input("want to play again, write yes to continue, or quit it :")
+repeat("yes")
+print("Thanks for playing")
+import random
+tester = False
+play= input("write play if you want to continue or quit to quit the program :")
+def game():
+    tester = True
+    while tester == True:
+        r = random.random()
+        r = int(r * 10)
+        if r == 1:
+            print("You got one .")
+            tester = False
+            pass
+        elif r == 2:
+            print("You got two .")
+            tester = False
+
+            pass
+        elif r == 3:
+            print("You got three .")
+            tester = False
+            pass
+        elif r == 4:
+            print("You got four .")
+            tester = False
+            pass
+        elif r == 5:
+            print("You got five .")
+            tester = False
+            pass
+        elif r == 6:
+            print("You got six .")
+            tester = False
+            pass
+        else:
+            continue
+            pass
+        pass
+
+if play=="play" :
+    game()
+ans=input("want to play again, write yes to continue ,or quit it :")
+
+def repeat(ans):
+    while ans=="yes":
+
+        if ans=="yes":
+            game()
+            pass
+        ans=input("want to play again, write yes to continue, or quit it :")
+repeat("yes")
+print("Thanks for playing")
